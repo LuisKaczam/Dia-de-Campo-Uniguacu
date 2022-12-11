@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Dia de Campo Uniguacu</string>
+    <string name="title_home">Programação</string>
+    <string name="title_dashboard">Pontução</string>
+    <string name="title_notifications">Mapa</string>
+    <string name="title_ranking">Ranking</string>
+    <string name="title_login">Dia de Campo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is the Home Fragment</string>
+    <string name="bem_vindo_a">Bem-Vindo (a)!</string>
+    <string name="escolha_seu_avatar">Escolha seu Avatar</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="entrar">Entrar</string>
+    <string name="avatar">avatar</string>
+    <string name="panfleto_dia_de_campo">Panfleto Dia de Campo</string>
+    <string name="n_o_foi_poss_vel_se_conectar_verifique_sua_conex_o_com_a_internet">Não foi possível se conectar, verifique sua conexão com a Internet</string>
+    <string name="no_wifi">no-wifi</string>
+    <string name="digite_um_c_digo">Digite um código</string>
+    <string name="inserir">Inserir</string>
+    <string name="textview">TextView</string>
+    <string name="insira_os_c_digos_dispon_veis_no_evento">Insira os códigos disponíveis no evento</string>
+</resources>

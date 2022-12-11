@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PontuacaoFragment">
+
+    <EditText
+        android:id="@+id/editTextCodigo"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/input_text"
+        android:drawableStart="@drawable/ic_baseline_key_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/digite_um_c_digo"
+        android:inputType="textPersonName"
+        android:maxLength="6"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/buttonInserirCod"
+        android:layout_width="156dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/inserir"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCodigo"
+        app:layout_constraintStart_toStartOf="@+id/editTextCodigo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCodigo" />
+
+    <TextView
+        android:id="@+id/textViewPlacar"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInserirCod"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/buttonInserirCod"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInserirCod" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/insira_os_c_digos_dispon_veis_no_evento"
+        android:textAlignment="center"
+        android:textColor="#00530A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

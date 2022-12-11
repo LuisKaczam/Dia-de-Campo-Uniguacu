@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648183425653",
+    "project_id": "dia-de-campo-de4b8",
+    "storage_bucket": "dia-de-campo-de4b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648183425653:android:54c737ccaca98a9bf0263c",
+        "android_client_info": {
+          "package_name": "com.uniguacu.dia_de_campo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648183425653-fl0fhn0fp6o22f9h4b75dp6q39sa21fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC5wcCG3MvhXy6h5m2uc-lJsa3qfmf6xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648183425653-fl0fhn0fp6o22f9h4b75dp6q39sa21fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
